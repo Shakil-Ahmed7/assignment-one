@@ -11,7 +11,6 @@
     background-size: 100% 100%;
     text-align: right;
     padding: 216px 230px 166px 745px;
-
 }
 
 .header-title {
@@ -32,4 +31,45 @@
     border: none;
     font-weight: 600;
     font-size: 20px;
+}
+
+/* first section styles */
+
+.first-section {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin: 131px 150px;
+
+}
+
+.failure-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.failure ul li:before {
+    content: '✓ ';
+    color: #16D887;
+}
+
+/* plan section styles */
+
+.plan-header {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
 }
