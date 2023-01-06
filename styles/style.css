@@ -125,6 +125,37 @@
     border-radius: 8px;
 }
 
+/* bonus customer design */
+
+.customer-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.customers{
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.customer-number{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.customer-description{
+    color: #737272;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 /* footer styles */
 
 .footer {
